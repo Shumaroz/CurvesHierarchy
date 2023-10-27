@@ -46,3 +46,11 @@
 - Circle is planar in the plane XoY (i.e. all Z-coordinates are 0) and is defined by its radius.
 - Ellipse is planar in the plane XoY and is defined by its two radii, along X and Y axes.
 - Helix is spatial and is defined by its radius and step (see the figure below). It takes 2 * PI in parametric space to make a round, i.e. any point on helix satisfies the condition C(t + 2*PI) = C(t) + {0, 0, step}.
+
+---
+
+**Written and compiled in:** Visual Studio 2019
+
+**How to build and run:** First build the DllCurves project and then run the program
+
+**Author:** Danila Beloborodov
