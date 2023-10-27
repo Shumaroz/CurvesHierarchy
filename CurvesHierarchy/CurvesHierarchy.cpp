@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <algorithm>
+#include <fstream>
 #include "MyDLL.h"
 #include "Curve.h"
 #include "Circle.h"
