@@ -1,6 +1,10 @@
+#ifndef ELLIPSE_H
+#define ELLIPSE_H
+
+#include "MyDLL.h"
 #include "Curve.h"
 
-class Ellipse : public Curve
+class MYDLL_API Ellipse : public Curve
 {
 private:
 	double radius_y;
@@ -11,3 +15,5 @@ public:
 	virtual array<double, 3> derivative(double t) override;
 	virtual double getRadius() override;
 };
+
+#endif // !ELLIPSE_H

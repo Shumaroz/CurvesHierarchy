@@ -1,3 +1,5 @@
+#include "pch.h"
+#include "MyDLL.h"
 #include "Helix.h"
 
 Helix::Helix(double x, double y, double radius, double step)
@@ -9,10 +11,7 @@ Helix::Helix(double x, double y, double radius, double step)
 	this->step = step;
 }
 
-Helix::~Helix()
-{
-
-}
+Helix::~Helix() { }
 
 array<double, 3> Helix::point(double t)
 {

@@ -1,3 +1,5 @@
+#include "pch.h"
+#include "MyDLL.h"
 #include "Circle.h"
 
 Circle::Circle(double x, double y, double radius)
@@ -8,10 +10,7 @@ Circle::Circle(double x, double y, double radius)
 	this->radius = radius;
 }
 
-Circle::~Circle()
-{
-
-}
+Circle::~Circle() { }
 
 array<double, 3> Circle::point(double t)
 {

@@ -1,6 +1,10 @@
+#ifndef CRICLE_H
+#define CRICLE_H
+
+#include "MyDLL.h"
 #include "Curve.h"
 
-class Circle : public Curve
+class MYDLL_API Circle : public Curve
 {
 private:
 
@@ -11,3 +15,5 @@ public:
 	virtual array<double, 3> derivative(double t) override;
 	virtual double getRadius() override;
 };
+
+#endif // !CRICLE_H

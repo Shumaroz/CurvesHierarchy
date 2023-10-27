@@ -1,10 +1,13 @@
 ﻿#include <iostream>
 #include <vector>
 #include <algorithm>
+#include "MyDLL.h"
 #include "Curve.h"
 #include "Circle.h"
 #include "Ellipse.h"
 #include "Helix.h"
+
+#define MYDLL_API __declspec(dllimport)
 
 double round_to(double value, double precision = 1.0)
 {

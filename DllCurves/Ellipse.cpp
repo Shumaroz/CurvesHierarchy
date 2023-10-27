@@ -1,3 +1,5 @@
+#include "pch.h"
+#include "MyDLL.h"
 #include "Ellipse.h"
 
 Ellipse::Ellipse(double x, double y, double radius_x, double radius_y)
@@ -9,10 +11,7 @@ Ellipse::Ellipse(double x, double y, double radius_x, double radius_y)
 	this->radius_y = radius_y;
 }
 
-Ellipse::~Ellipse()
-{
-
-}
+Ellipse::~Ellipse() { }
 
 array<double, 3> Ellipse::point(double t)
 {

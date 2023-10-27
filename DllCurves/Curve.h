@@ -1,3 +1,6 @@
+#ifndef CURVE_H
+#define CURVE_H
+
 #pragma once
 
 #define _USE_MATH_DEFINES
@@ -8,7 +11,7 @@
 
 using namespace std;
 
-class Curve
+class MYDLL_API Curve
 {
 protected:
 	double radius;
@@ -18,3 +21,5 @@ public:
 	virtual array<double, 3> derivative(double t) = 0;
 	virtual double getRadius() = 0;
 };
+
+#endif // !CURVE_H
